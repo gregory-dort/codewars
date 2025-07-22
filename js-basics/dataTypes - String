@@ -11,17 +11,3 @@ function banana(){
   //select some variable to combine "banana"
   return b2+a2+n2+a2+n2+a2;
 }
-
-//answer some questions if you finished works above
-function answer1(){
-  //the answer should be "yes" or "no"
-  return "no";
-}
-function answer2(){
-  //the answer should be "yes" or "no"
-  return "no";
-}
-function answer3(){
-  //the answer should be "yes" or "no"
-  return "yes";
-}
