@@ -11,3 +11,6 @@ function colorOf(r,g,b) {
   var webCode = `#${red + green + blue}`;
   return webCode;
 }
+
+// Created if logic to add an extra value to converted strings if length was not 2
+// JS simplifies string conversion to the minimal number of characters needed
