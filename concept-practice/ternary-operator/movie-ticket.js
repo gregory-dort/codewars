@@ -3,6 +3,8 @@
 // If false, return $12
 // isStudent is a boolean value
 
-function movieTicket(isStudent) {
+isStudent = true;
 
+function movieTicket(isStudent) {
+    return isStudent ? "$8" : "$12";
 }
