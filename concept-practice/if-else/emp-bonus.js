@@ -6,5 +6,15 @@
 // yearsOfService is a number
 
 function calculateBonus(yearsOfService) {
-
+    if(yearsOfService <= 1){
+        return "$100";
+    } else if(yearsOfService <= 5){
+        return "$500";
+    } else {
+        return "$1000";
+    }
 }
+
+console.log(calculateBonus(0)); // Output: $100
+console.log(calculateBonus(3)); // Output: $500
+console.log(calculateBonus(15)); // Output: $1000

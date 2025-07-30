@@ -3,8 +3,9 @@
 // If false, return $12
 // isStudent is a boolean value
 
-isStudent = true;
-
 function movieTicket(isStudent) {
     return isStudent ? "$8" : "$12";
 }
+
+console.log(movieTicket(true)); // Output: $8
+console.log(movieTicket(false)); // Output: $12
