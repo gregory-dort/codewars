@@ -5,5 +5,8 @@
 // parameter isLoggedIn is a boolean value
 
 function getGreeting(isLoggedIn) {
-    
+    return isLoggedIn ? "Welcome!" : "Please log in.";
 }
+
+console.log(getGreeting(false));
+console.log(getGreeting(true));
